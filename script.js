@@ -14,8 +14,6 @@ if(loginBtn){
 
 loginBtn.addEventListener("click",()=>{
 
-alert("Halaman Login akan segera tersedia.");
-
 });
 
 }
@@ -29,8 +27,6 @@ const registerBtn = document.querySelector(".register");
 if(registerBtn){
 
 registerBtn.addEventListener("click",()=>{
-
-alert("Halaman Register akan segera tersedia.");
 
 });
 
