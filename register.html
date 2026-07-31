@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Register | ONE SuperApp</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="login-container">
+
+<div class="login-box">
+
+<h1>🚀 ONE</h1>
+
+<h2>Buat Akun Baru</h2>
+
+<p>Gabung ke ONE SuperApp sekarang.</p>
+
+<form id="registerForm">
+
+<input
+type="text"
+placeholder="Nama Lengkap"
+required>
+
+<input
+type="text"
+placeholder="Username"
+required>
+
+<input
+type="email"
+placeholder="Email"
+required>
+
+<input
+type="password"
+placeholder="Password"
+required>
+
+<input
+type="password"
+placeholder="Konfirmasi Password"
+required>
+
+<button type="submit">
+
+Daftar
+
+</button>
+
+</form>
+
+<div class="links">
+
+<a href="login.html">
+
+Sudah punya akun?
+
+</a>
+
+<a href="index.html">
+
+Kembali
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+<script>
+
+const form=document.getElementById("registerForm");
+
+form.addEventListener("submit",(e)=>{
+
+e.preventDefault();
+
+alert("Pendaftaran berhasil (Demo)");
+
+window.location.href="login.html";
+
+});
+
+</script>
+
+</body>
+  </html>
